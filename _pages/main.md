@@ -4,22 +4,29 @@ title: Raveform
 permalink: /
 description: A Dataset of Structure Annotations for EDM Tracks in DJ Mixes
 # tags: distill formatting
-date: 2021-05-22
+date: 2026-03-23
 
 authors:
-  - name: Author A
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Taejun Kim
+    url: "https://taejun.kim"
     affiliations:
-      name: Hidden
-      url: "https://en.wikipedia.org/"
-  - name: Author B
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+      name: Neutune
+      url: "https://neutune.com"
+  - name: Jongsoo Kim
+    url: "https://white-df.github.io"
     affiliations:
-      name: Hidden
-  - name: Author C
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+      name: MACLab, KAIST
+      url: "https://mac.kaist.ac.kr"
+  - name: Hyungyu Kim
+    # url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
     affiliations:
-      name: Hidden
+      name: KAIST
+      url: "https://kaist.ac.kr"
+  - name: Juhan Nam
+    url: "https://mac.kaist.ac.kr/~juhan/"
+    affiliations:
+      name: MACLab, KAIST
+      url: "https://mac.kaist.ac.kr"
 
 bibliography: raveform.bib
 
@@ -42,12 +49,14 @@ toc:
 
 # Quick Links
 
-<br>
+<div style="margin-top: 1em;"></div>
 
-- [Dataset](https://huggingface.co/datasets/taejunkim/raveform/resolve/main/raveform.zip)
-- [Code](https://github.com/mir-aidj/raveform)
-- [Structure Analysis Model](https://github.com/mir-aidj/all-in-one) (v2 will be released soon)
+- 📦 [Dataset](https://huggingface.co/datasets/taejunkim/raveform/resolve/main/raveform.zip)
+- 💻 [Code](https://github.com/mir-aidj/raveform)
+- 🎵 [Structure Analysis Model](https://github.com/mir-aidj/all-in-one) (v2 will be released soon)
+- 📄 Paper (TBA)
 
+<div style="margin-top: 2em;"></div>
 
 # Dataset Structure
 
