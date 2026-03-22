@@ -40,12 +40,11 @@ toc:
 
 ---
 
-# [\>>> Dataset Download Link \<<<](https://sandbox.zenodo.org/records/411714?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijg3MTVkMGRlLTQxYTItNDE4Mi1hMTAyLTBmYjYzOTY2NDRjNSIsImRhdGEiOnt9LCJyYW5kb20iOiJkMTlkZjg5ZjQ2Nzc5ZmEyNjJiNTljM2YxNDBiNjQ4NiJ9.7d1hjpLiP-SL1WRrh4FIpDTBY0N4Jq3u-s8U3HfCIk_1dbR9-BD4eJhJHrsUJik9heM0DRsD0CxstXF4WK7ZRg)
+# Quick Links
+- [Dataset](https://huggingface.co/datasets/taejunkim/raveform/resolve/main/raveform.zip)
+- [Code](https://github.com/mir-aidj/raveform)
+- [Structure Analysis Model](https://github.com/mir-aidj/all-in-one) (v2 will be released soon)
 
-> NOTE: If accepted, the dataset and structure analysis model will be made available on 
-> Hugging Face. This website will be hosted on GitHub Pages, and the code will be 
-> released on GitHub. The repository will include instructions for downloading and 
-> using the dataset.
 
 # Dataset Structure
 
