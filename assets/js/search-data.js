@@ -7,7 +7,7 @@ ninja.data = [{
     title: "Raveform",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/raveform/";
     },
   },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -36,7 +36,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/raveform/assets/pdf/example_pdf.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -57,7 +57,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("/raveform//feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',

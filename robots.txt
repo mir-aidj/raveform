@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://raveform.netlify.app/sitemap.xml
+Sitemap: https://mir-aidj.github.io/raveform//sitemap.xml
