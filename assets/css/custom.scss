@@ -1,0 +1,10 @@
+pre.highlight,
+pre > code {
+  white-space: pre !important;
+  line-height: 1.6 !important;
+}
+
+pre > span.c,
+pre > code > span.c {
+  color: white !important;
+}
