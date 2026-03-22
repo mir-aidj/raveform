@@ -4,38 +4,49 @@
       {
             "title": "Raveform",
             "description": "A Dataset of Structure Annotations for EDM Tracks in DJ Mixes",
-            "published": "May 22, 2021",
+            "published": "March 23, 2026",
             "authors": [
               
               {
-                "author": "Author A",
-                "authorURL": "https://en.wikipedia.org/wiki/Albert_Einstein",
+                "author": "Taejun Kim",
+                "authorURL": "https://taejun.kim",
                 "affiliations": [
                   {
-                    "name": "Hidden",
-                    "url": "https://en.wikipedia.org/"
+                    "name": "Neutune",
+                    "url": "https://neutune.com"
                   }
                 ]
               },
               
               {
-                "author": "Author B",
-                "authorURL": "https://en.wikipedia.org/wiki/Boris_Podolsky",
+                "author": "Jongsoo Kim",
+                "authorURL": "https://white-df.github.io",
                 "affiliations": [
                   {
-                    "name": "Hidden",
-                    "url": ""
+                    "name": "MACLab, KAIST",
+                    "url": "https://mac.kaist.ac.kr"
                   }
                 ]
               },
               
               {
-                "author": "Author C",
-                "authorURL": "https://en.wikipedia.org/wiki/Nathan_Rosen",
+                "author": "Hyungyu Kim",
+                "authorURL": "",
                 "affiliations": [
                   {
-                    "name": "Hidden",
-                    "url": ""
+                    "name": "KAIST",
+                    "url": "https://kaist.ac.kr"
+                  }
+                ]
+              },
+              
+              {
+                "author": "Juhan Nam",
+                "authorURL": "https://mac.kaist.ac.kr/~juhan/",
+                "affiliations": [
+                  {
+                    "name": "MACLab, KAIST",
+                    "url": "https://mac.kaist.ac.kr"
                   }
                 ]
               }
@@ -56,7 +67,7 @@
               ]
             }
           }
-    </script> </d-front-matter> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/raveform/">Raveform <span class="sr-only">(current)</span> </a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="post distill"> <d-title> <h1>Raveform</h1> <p>A Dataset of Structure Annotations for EDM Tracks in DJ Mixes</p> </d-title> <d-byline></d-byline> <d-article> <d-contents> <nav class="l-text figcaption"> <h3>Contents</h3> <div> <a href="#dataset-structure">Dataset Structure</a> </div> <div> <a href="#dataset-components">Dataset Components</a> </div> <ul> <li> <a href="#dj-mix-metadata">DJ Mix Metadata</a> </li> <li> <a href="#track-metadata">Track Metadata</a> </li> <li> <a href="#beats">Beats</a> </li> <li> <a href="#mix-to-track-alignments">Mix-to-Track Alignments</a> </li> <li> <a href="#structure-annotations">Structure Annotations</a> </li> </ul> <div> <a href="#segment-function-examples">Segment Function Examples</a> </div> <ul> <li> <a href="#straightforward-example">Straightforward Example</a> </li> <li> <a href="#ambiguous-example">Ambiguous Example</a> </li> </ul> <div> <a href="#how-to-annotate-structures">How to Annotate Structures</a> </div> </nav> </d-contents> <h1 id="quick-links">Quick Links</h1> <p><br></p> <ul> <li><a href="https://huggingface.co/datasets/taejunkim/raveform/resolve/main/raveform.zip" rel="external nofollow noopener" target="_blank">Dataset</a></li> <li><a href="https://github.com/mir-aidj/raveform" rel="external nofollow noopener" target="_blank">Code</a></li> <li> <a href="https://github.com/mir-aidj/all-in-one" rel="external nofollow noopener" target="_blank">Structure Analysis Model</a> (v2 will be released soon)</li> </ul> <h1 id="dataset-structure">Dataset Structure</h1> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dataset 
+    </script> </d-front-matter> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/raveform/">Raveform <span class="sr-only">(current)</span> </a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="post distill"> <d-title> <h1>Raveform</h1> <p>A Dataset of Structure Annotations for EDM Tracks in DJ Mixes</p> </d-title> <d-byline></d-byline> <d-article> <d-contents> <nav class="l-text figcaption"> <h3>Contents</h3> <div> <a href="#dataset-structure">Dataset Structure</a> </div> <div> <a href="#dataset-components">Dataset Components</a> </div> <ul> <li> <a href="#dj-mix-metadata">DJ Mix Metadata</a> </li> <li> <a href="#track-metadata">Track Metadata</a> </li> <li> <a href="#beats">Beats</a> </li> <li> <a href="#mix-to-track-alignments">Mix-to-Track Alignments</a> </li> <li> <a href="#structure-annotations">Structure Annotations</a> </li> </ul> <div> <a href="#segment-function-examples">Segment Function Examples</a> </div> <ul> <li> <a href="#straightforward-example">Straightforward Example</a> </li> <li> <a href="#ambiguous-example">Ambiguous Example</a> </li> </ul> <div> <a href="#how-to-annotate-structures">How to Annotate Structures</a> </div> </nav> </d-contents> <h1 id="quick-links">Quick Links</h1> <div style="margin-top: 1em;"></div> <ul> <li>📦 <a href="https://huggingface.co/datasets/taejunkim/raveform/resolve/main/raveform.zip" rel="external nofollow noopener" target="_blank">Dataset</a> </li> <li>💻 <a href="https://github.com/mir-aidj/raveform" rel="external nofollow noopener" target="_blank">Code</a> </li> <li>🎵 <a href="https://github.com/mir-aidj/all-in-one" rel="external nofollow noopener" target="_blank">Structure Analysis Model</a> (v2 will be released soon)</li> <li>📄 Paper (TBA)</li> </ul> <div style="margin-top: 2em;"></div> <h1 id="dataset-structure">Dataset Structure</h1> <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dataset 
 ├─ mixes.jsonl                 <span class="c"># DJ mix metadata including tracklists</span>
 ├─ tracks.jsonl                <span class="c"># Individual track metadata</span>
 ├─ mixesdb_genres.jsonl        <span class="c"># All genres of DJ mixes collected from MixesDB</span>
