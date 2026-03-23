@@ -15,17 +15,17 @@ authors:
   - name: Jongsoo Kim
     url: "https://white-df.github.io"
     affiliations:
-      name: MACLab, KAIST
+      name: MAC Lab, KAIST
       url: "https://mac.kaist.ac.kr"
   - name: Hyungyu Kim
     # url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
     affiliations:
-      name: KAIST
-      url: "https://kaist.ac.kr"
+      name: MLP Lab, KAIST
+      url: "https://sites.google.com/view/aailab"
   - name: Juhan Nam
     url: "https://mac.kaist.ac.kr/~juhan/"
     affiliations:
-      name: MACLab, KAIST
+      name: MAC Lab, KAIST
       url: "https://mac.kaist.ac.kr"
 
 bibliography: raveform.bib
